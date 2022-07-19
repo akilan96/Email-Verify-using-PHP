@@ -18,7 +18,7 @@ mysqli_query($con,"update users set token='$token' where email='$email'");
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
 	$mail->Username = 'ameygroups.in@gmail.com';                 // SMTP username
-	$mail->Password = 'Aki978658';                           // SMTP password
+	$mail->Password = 'xxxxxxxxxxxx';                           // SMTP password
 	$mail->SMTPSecure = 'tls';
 	$mail->Port = 587;
 	$mail->setFrom('ameygroups.in@gmail.com', 'Amey');
